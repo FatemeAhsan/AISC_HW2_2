@@ -16,7 +16,7 @@ class FClass():
 		self.cap = cv2.VideoCapture(0)
 
 
-	def fMethod(self):
+	def f_method(self):
 		inp = input()
 		
 		if inp == 'music':
@@ -60,6 +60,6 @@ class FClass():
 
 fc = FClass()
 
-fc.fMethod()
+fc.f_method()
 
 fc.stream_webcam()
